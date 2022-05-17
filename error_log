@@ -1,0 +1,52 @@
+[09-Apr-2019 19:40:17 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 57
+[09-Apr-2019 19:40:17 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 58
+[09-Apr-2019 19:40:56 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/spl_loan.php on line 57
+[09-Apr-2019 19:40:56 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/spl_loan.php on line 58
+[15-Apr-2019 11:40:48 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 57
+[15-Apr-2019 11:40:48 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 58
+[15-Apr-2019 11:41:51 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/spl_loan.php on line 57
+[15-Apr-2019 11:41:51 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/spl_loan.php on line 58
+[15-Apr-2019 11:42:20 asia/kolkata] PHP Notice:  Undefined index: RECOVERY_RATE in /home/coromsnr/public_html/rd.php on line 42
+[15-Apr-2019 11:42:20 asia/kolkata] PHP Notice:  Undefined index: RECOVERY_RATE in /home/coromsnr/public_html/rd.php on line 42
+[13-Jul-2019 15:09:00 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 57
+[13-Jul-2019 15:09:00 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 58
+[13-Jul-2019 15:09:31 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 57
+[13-Jul-2019 15:09:31 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 58
+[15-Jul-2019 10:34:15 asia/kolkata] PHP Notice:  Undefined index: gl_no in /home/coromsnr/public_html/loan.php on line 21
+[15-Jul-2019 10:34:15 asia/kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'and LOAN_STATUS = 'R'' at line 1 in /home/coromsnr/public_html/assets/includes/Database.php:36
+Stack trace:
+#0 /home/coromsnr/public_html/assets/includes/Database.php(36): PDOStatement->execute()
+#1 /home/coromsnr/public_html/loan.php(21): Database->query('select * from t...')
+#2 {main}
+  thrown in /home/coromsnr/public_html/assets/includes/Database.php on line 36
+[15-Jul-2019 10:41:11 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 57
+[15-Jul-2019 10:41:11 asia/kolkata] PHP Notice:  Undefined variable: sur2 in /home/coromsnr/public_html/loan.php on line 58
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined index: user in /home/coromsnr/public_html/user_home.php on line 24
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined index: user in /home/coromsnr/public_html/user_home.php on line 25
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined variable: info in /home/coromsnr/public_html/user_home.php on line 44
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined variable: info in /home/coromsnr/public_html/user_home.php on line 48
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined variable: info in /home/coromsnr/public_html/user_home.php on line 51
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined variable: info in /home/coromsnr/public_html/user_home.php on line 54
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined variable: info in /home/coromsnr/public_html/user_home.php on line 57
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined variable: info in /home/coromsnr/public_html/user_home.php on line 60
+[15-Jul-2019 10:42:40 asia/kolkata] PHP Notice:  Undefined variable: info in /home/coromsnr/public_html/user_home.php on line 60
+[24-Jul-2019 08:45:22 asia/kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'coromsnr_admin'@'localhost' (using password: YES) in /home/coromsnr/public_html/assets/includes/Database.php:26
+Stack trace:
+#0 /home/coromsnr/public_html/assets/includes/Database.php(26): PDO->__construct('mysql:host=loca...', 'coromsnr_admin', 'Cfecs@609!', Array)
+#1 /home/coromsnr/public_html/index.php(11): Database->__construct()
+#2 {main}
+  thrown in /home/coromsnr/public_html/assets/includes/Database.php on line 26
+[24-Jul-2019 08:45:57 asia/kolkata] PHP Notice:  Undefined index: name in /home/coromsnr/public_html/header.php on line 105
+[25-Jul-2019 09:14:11 asia/kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'coromsnr_admin'@'localhost' (using password: YES) in /home/coromsnr/public_html/assets/includes/Database.php:26
+Stack trace:
+#0 /home/coromsnr/public_html/assets/includes/Database.php(26): PDO->__construct('mysql:host=loca...', 'coromsnr_admin', 'Cfecs@609!', Array)
+#1 /home/coromsnr/public_html/index.php(11): Database->__construct()
+#2 {main}
+  thrown in /home/coromsnr/public_html/assets/includes/Database.php on line 26
+[25-Jul-2019 09:14:20 asia/kolkata] PHP Notice:  Undefined index: name in /home/coromsnr/public_html/header.php on line 106
+[25-Jul-2019 09:14:20 asia/kolkata] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'coromsnr_admin'@'localhost' (using password: YES) in /home/coromsnr/public_html/assets/includes/Database.php:26
+Stack trace:
+#0 /home/coromsnr/public_html/assets/includes/Database.php(26): PDO->__construct('mysql:host=loca...', 'coromsnr_admin', 'Cfecs@609!', Array)
+#1 /home/coromsnr/public_html/index.php(11): Database->__construct()
+#2 {main}
+  thrown in /home/coromsnr/public_html/assets/includes/Database.php on line 26
